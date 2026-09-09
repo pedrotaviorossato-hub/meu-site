@@ -5,6 +5,8 @@ description: "Jogo desenvolvido em Python com diferentes modos de jogo."
 technologies: "Python"
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/projeto3.css' | relative_url }}">
+
 <div class="project-page">
 
     <h1>{{ page.title }}</h1>
