@@ -5,6 +5,8 @@ description: "Projeto de reaproveitamento de vidro para criação de materiais s
 technologies: "HTML, CSS, JavaScript"
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/projeto1.css' | relative_url }}">
+
 <div class="project-page">
 
     <h1>{{ page.title }}</h1>
