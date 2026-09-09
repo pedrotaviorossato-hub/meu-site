@@ -1,0 +1,25 @@
+.sobre {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+}
+
+.sobre h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.sobre h2 {
+    margin-top: 30px;
+}
+
+.sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.sobre li {
+    margin: 10px 0;
+}
