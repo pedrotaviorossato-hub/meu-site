@@ -5,6 +5,8 @@ description: "Site desenvolvido para trabalhar com música e interação."
 technologies: "HTML, CSS e JavaScript"
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/projeto2.css' | relative_url }}">
+
 <div class="project-page">
 
     <h1>{{ page.title }}</h1>
