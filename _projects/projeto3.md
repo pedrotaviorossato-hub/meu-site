@@ -1,21 +1,40 @@
 ---
+layout: default
 title: "Campo Minado"
 description: "Jogo desenvolvido em Python com diferentes modos de jogo."
 technologies: "Python"
 ---
 
-# Campo Minado
+<div class="project-page">
 
-O Campo Minado é um jogo desenvolvido em Python como exercício de programação.
+    <h1>{{ page.title }}</h1>
 
-O projeto possui um tabuleiro, bombas, sistema de pontuação e diferentes
-possibilidades de interação.
+    <p class="project-description">
+        {{ page.description }}
+    </p>
 
-## Tecnologias
+    <h2>Sobre o projeto</h2>
 
-Python.
+    <p>
+        O Campo Minado é um jogo desenvolvido em Python como exercício
+        de programação.
+    </p>
 
-## Objetivo
+    <h2>Tecnologias</h2>
 
-Praticar conceitos de programação como funções, estruturas de repetição,
-condições, listas e números aleatórios.
+    <p>
+        {{ page.technologies }}
+    </p>
+
+    <h2>Objetivo</h2>
+
+    <p>
+        Praticar funções, estruturas de repetição, condições, listas
+        e números aleatórios.
+    </p>
+
+    <a class="back-button" href="{{ '/projetos' | relative_url }}">
+        ← Voltar para projetos
+    </a>
+
+</div>
