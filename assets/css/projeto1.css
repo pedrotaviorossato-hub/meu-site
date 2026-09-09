@@ -1,0 +1,15 @@
+.projeto1 {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+}
+
+.projeto1 h1 {
+    font-size: 45px;
+}
+
+.projeto1 h2 {
+    margin-top: 30px;
+}
