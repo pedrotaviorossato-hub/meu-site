@@ -3,34 +3,38 @@ layout: default
 title: Projetos
 ---
 
-# Meus projetos
+<section class="projects-page">
 
-Aqui estão alguns dos projetos que desenvolvi durante meus estudos.
+    <h1>Meus projetos</h1>
 
-<div class="projects">
+    <p class="projects-intro">
+        Alguns projetos desenvolvidos durante meus estudos.
+    </p>
 
-    <div class="project">
-        <h2>Projeto 1</h2>
-        <p>
-            Site desenvolvido utilizando HTML e CSS.
-        </p>
-        <a href="#">Ver projeto</a>
+    <div class="projects">
+
+        {% for projeto in site.projects %}
+
+        <div class="project">
+
+            <h2>{{ projeto.title }}</h2>
+
+            <p>
+                {{ projeto.description }}
+            </p>
+
+            <p class="technologies">
+                {{ projeto.technologies }}
+            </p>
+
+            <a href="{{ projeto.url | relative_url }}">
+                Ver projeto
+            </a>
+
+        </div>
+
+        {% endfor %}
+
     </div>
 
-    <div class="project">
-        <h2>Projeto 2</h2>
-        <p>
-            Projeto desenvolvido utilizando JavaScript.
-        </p>
-        <a href="#">Ver projeto</a>
-    </div>
-
-    <div class="project">
-        <h2>Projeto 3</h2>
-        <p>
-            Projeto desenvolvido utilizando Python.
-        </p>
-        <a href="#">Ver projeto</a>
-    </div>
-
-</div>
+</section>
