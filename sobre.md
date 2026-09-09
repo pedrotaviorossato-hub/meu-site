@@ -38,4 +38,4 @@ title: Sobre mim
         de tecnologia.
     </p>
 
-</div> mais completos.
+</div>
